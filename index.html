@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML estrutura semântica</title>
+</head>
+<body>
+    <header>
+        <img src="img1/use.png" alt="user">
+        <nav>
+            <h1>DSPlayGames</h1>
+            <ul>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#sing up">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="news">
+            <h2> Últimas notícias</h2>
+            <h3>Título principal da notícia</h3>
+             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto vitae ducimus aperiam.
+            </h4>
+             <h5>23/12/2022</h5>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, 
+                facilis nesciunt, expedita esse labore officiis ut ipsam voluptates 
+                aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae 
+                ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam 
+                esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad 
+                amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! 
+                Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur 
+                sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in 
+                nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae 
+                voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo 
+                perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, 
+                deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim
+                quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum
+                necessitatibus culpa fuga ...
+            </p>
+        </section>
+        <h3>Título principal da notícia</h3>
+         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Architecto vitae ducimus aperiam.
+        </h4>
+         <h5>23/12/2022</h5>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, 
+            facilis nesciunt, expedita esse labore officiis ut ipsam voluptates 
+            aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae 
+            ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam 
+            esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad 
+            amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! 
+            Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur 
+            sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in 
+            nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae 
+            voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo 
+            perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, 
+            deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim
+            quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum
+            necessitatibus culpa fuga ...
+        </p>
+        <input type="more" value="Carregar mais"> 
+        </section>
+        <section id="games">
+            <h2>Jogos</h2>
+            <div>
+                <img src="img1/gamer.png" alt="Horizon Forbidden West">
+               <div>
+                    <h3>Horizon Forbidden West</h3>
+                    <p><span>De</span> Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>
+            </div>                                
+            <div>
+                <img src="img1/gamer.png" alt="Horizon Forbidden West">
+                <div>
+                    <h3>Horizon Forbidden West</h3>
+                    <p><span>De</span> Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>
+            </div>                
+            <div>
+                <img src="img1/gamer.png" alt="Horizon Forbidden West">
+                <div>
+                    <h3>Horizon Forbidden West</h3>
+                    <p><span>De</span> Sony Interactive Entertainment</p>
+                    <p>9.7</p>
+                </div>               
+            </div>      
+        </section>
+        <section id="sing up">
+            <h2>Faça sua inscrição</h2>
+            <div>
+                <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome"/>
+            </div>   
+            <div>
+                <input id="ctrl-email" name="email" type="email" placeholder="Digite seu email"/>
+            </div> 
+            <div>
+                <label for="ctrl-level">Qual sua plataforma preferia?</label>
+                <ul>
+                <li>
+                    <input type="radio" name="level" id="ctrl-level-1">
+                    <label for="ctrl-level-1">PC</label>
+                </li>
+                <li>
+                    <input type="radio" name="level" id="ctrl-level-2">
+                    <label for="ctrl-level-2">Xbox</label>
+                </li>
+                <li>
+                    <input type="radio" name="level" id="ctrl-level-3">
+                    <label for="ctrl-level-3">Playstation</label>
+                </li>
+                </ul>
+                    <div>
+                        <input id="ctrl-novidades" name="novidades" type="checkbox">
+                        <label for="ctrl-novidades">Deseja receber novidades?</label>
+                    </div>
+                </div>             
+            </div> 
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div>
+                <h3>@dsplaygames/dsplaygames</h3>                
+            </div>  
+            <div>
+                <h3>DS Play Games Ltda. Todos direitos reservados</h3>
+            </div>
+            <div>
+                <h3>Polícica de privacidade de uso</h3>
+            </div>
+                  
+    </footer> 
+</body>
+</html>
